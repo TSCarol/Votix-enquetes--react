@@ -69,7 +69,7 @@ export const PollDetailPage = styled.section`
   @media (${breakpoints.celular}) {
     border-radius: 30px;
     width: 300px;
-    height: 650px;
+    height: 680px;
 
     h2 {
       font-size: 25px;
@@ -116,11 +116,12 @@ export const ButtonPage = styled.button`
   font-size: 16px;
   font-weight: bold;
   background-color: ${colors.redDark};
-  color: ${colors.orange};
+  color: ${colors.white};
   border: 3px solid ${colors.orange};
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
   width: 100%;
+
   transition:
     transform 0.3s ease,
     background-color 0.3s ease;
@@ -148,7 +149,7 @@ export const ResultBarPage = styled.div<{ width: string }>`
 export const ResultTextPage = styled.span`
   font-size: 16px;
   font-weight: bold;
-  color: ${colors.redDark};
+  color: ${colors.white};
   position: absolute;
   left: 12px;
   bottom: 5px;
@@ -157,7 +158,7 @@ export const ResultTextPage = styled.span`
 export const PercentagePage = styled.span`
   font-size: 16px;
   font-weight: bold;
-  color: ${colors.redDark};
+  color: ${colors.white};
   position: absolute;
   right: 12px;
   top: 50%;
@@ -168,6 +169,19 @@ export const Text = styled.p`
   font-size: 14px;
   font-weight: bold;
   padding-top: 10px;
+
+  @media (${breakpoints.tablet}) {
+    text-align: center;
+    width: 650px;
+    bottom: 50px;
+  }
+
+  @media (${breakpoints.celular}) {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
 `
 
 export const BackButton = styled.button`
@@ -177,11 +191,12 @@ export const BackButton = styled.button`
   font-size: 16px;
   font-weight: bold;
   background-color: ${colors.redDark};
-  color: ${colors.yellow};
+  color: ${colors.white};
   border: 3px solid ${colors.redDark};
   border-radius: 15px;
   padding: 10px 10px 10px 10px;
   width: 190px;
+
   transition:
     transform 0.3s ease,
     background-color 0.3s ease;

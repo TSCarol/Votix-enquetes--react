@@ -25,9 +25,8 @@ export const ListPageContainer = styled.section`
   padding: 60px 120px;
 
   @media (${breakpoints.tablet}) {
-    padding: 40px 60px;
     padding: 10px 20px;
-    width: 180px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -49,7 +48,6 @@ export const TitlePage = styled.h2`
   color: ${colors.white};
   border-radius: 25px;
   padding: 10px 20px 10px 20px;
-  width: 15%;
 
   @media (${breakpoints.tablet}) {
     padding: 10px 20px 10px 20px;
@@ -173,7 +171,7 @@ export const StatusPage = styled.div<StatusProps>`
     font-style: normal;
     font-size: 18px;
     text-align: center;
-    color: ${colors.redDark};
+    color: ${colors.white};
     margin: 0;
   }
 

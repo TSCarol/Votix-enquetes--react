@@ -45,7 +45,6 @@ export const EstiloGlobal = createGlobalStyle`
   }
 
   body {
-    padding-bottom: 80px;
     background-color: ${colors.yellow};
   }
 `

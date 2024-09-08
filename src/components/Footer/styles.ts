@@ -22,9 +22,6 @@ export const ContainerFooter = styled.footer`
 
   @media (${breakpoints.tablet}) {
     padding: 15px 0;
-    p {
-      font-size: 16px;
-    }
   }
 
   @media (${breakpoints.celular}) {

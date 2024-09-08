@@ -116,11 +116,12 @@ export const Button = styled.button`
   font-size: 16px;
   font-weight: bold;
   background-color: ${colors.orange};
-  color: ${colors.redDark};
+  color: ${colors.white};
   border: 3px solid ${colors.redDark};
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
   width: 100%;
+
   transition:
     transform 0.3s ease,
     background-color 0.3s ease;
@@ -148,7 +149,7 @@ export const ResultBar = styled.div<{ width: string }>`
 export const ResultText = styled.span`
   font-size: 16px;
   font-weight: bold;
-  color: ${colors.redDark};
+  color: ${colors.white};
   position: absolute;
   left: 12px;
   bottom: 5px;
@@ -157,7 +158,7 @@ export const ResultText = styled.span`
 export const Percentage = styled.span`
   font-size: 16px;
   font-weight: bold;
-  color: ${colors.redDark};
+  color: ${colors.white};
   position: absolute;
   right: 12px;
   top: 50%;
@@ -167,4 +168,17 @@ export const Percentage = styled.span`
 export const Text = styled.p`
   font-size: 14px;
   font-weight: bold;
+
+  @media (${breakpoints.tablet}) {
+    text-align: center;
+    width: 650px;
+    bottom: 50px;
+  }
+
+  @media (${breakpoints.celular}) {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
 `

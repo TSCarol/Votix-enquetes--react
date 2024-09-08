@@ -15,21 +15,21 @@ const Footer = () => (
   <ContainerFooter>
     <TextAndImage>
       <ImageFooter src={votix} alt="Votix" />
-      <p>2024 &copy; RetroRebellion- Todos os direitos reservados.</p>
+      <p>2024 &copy; Votix- Todos os direitos reservados.</p>
     </TextAndImage>
     <Links>
       <Link>
-        <a href="#">
+        <a href="#" aria-disabled="true">
           <img src={facebook} alt="Facebook" />
         </a>
       </Link>
       <Link>
-        <a href="#">
+        <a href="#" aria-disabled="true">
           <img src={instagram} alt="Instagram" />
         </a>
       </Link>
       <Link>
-        <a href="#">
+        <a href="#" aria-disabled="true">
           <img src={twitter} alt="Twitter" />
         </a>
       </Link>

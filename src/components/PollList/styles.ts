@@ -27,7 +27,7 @@ export const PollListContainer = styled.section`
   @media (${breakpoints.tablet}) {
     padding: 40px 60px;
     padding: 10px 20px;
-    width: 180px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -49,12 +49,11 @@ export const Title = styled.h2`
   color: ${colors.white};
   border-radius: 25px;
   padding: 10px 20px 10px 20px;
-  width: 15%;
+  justify-content: center;
 
   @media (${breakpoints.tablet}) {
     padding: 10px 20px 10px 20px;
     width: 180px;
-    justify-content: center;
     align-items: center;
     margin-bottom: 40px;
     margin-top: 60px;
@@ -130,7 +129,7 @@ export const PollCard = styled.div`
       font-size: 23px;
     }
     p {
-      font-size: 18px;
+      font-size: 16px;
       margin-left: 10px;
       margin-bottom: 5px;
     }
@@ -142,10 +141,10 @@ export const PollCard = styled.div`
     margin-bottom: 30px;
 
     h3 {
-      font-size: 16px;
+      font-size: 18px;
     }
     p {
-      font-size: 12px;
+      font-size: 14px;
       margin-bottom: 0px;
     }
   }
@@ -168,7 +167,7 @@ export const Status = styled.div<StatusProps>`
     font-style: normal;
     font-size: 18px;
     text-align: center;
-    color: ${colors.redDark};
+    color: ${colors.white};
     margin: 0;
   }
 `

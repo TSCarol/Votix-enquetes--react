@@ -23,7 +23,6 @@ export const HeaderContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     height: auto;
-    width: 100%;
   }
 `
 
@@ -36,7 +35,6 @@ export const Title = styled.div`
   margin: 20px 20px 30px 50px;
 
   @media (${breakpoints.tablet}) {
-    font-size: 60px;
     margin: 10px 0;
   }
 
@@ -58,6 +56,7 @@ export const Button = styled.button`
   border: none;
   background-color: ${colors.redDark};
   color: ${colors.white};
+
   transition:
     transform 0.3s ease,
     background-color 0.3s ease,
