@@ -48,6 +48,7 @@ export const TitlePage = styled.h2`
   color: ${colors.white};
   border-radius: 25px;
   padding: 10px 20px 10px 20px;
+  width: 180px;
 
   @media (${breakpoints.tablet}) {
     padding: 10px 20px 10px 20px;

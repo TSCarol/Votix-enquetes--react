@@ -50,6 +50,7 @@ export const Title = styled.h2`
   border-radius: 25px;
   padding: 10px 20px 10px 20px;
   justify-content: center;
+  width: 180px;
 
   @media (${breakpoints.tablet}) {
     padding: 10px 20px 10px 20px;
